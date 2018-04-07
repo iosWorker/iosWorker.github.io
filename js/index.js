@@ -29,24 +29,32 @@ $(document).ready(function() {
         }
         audioAutoPlay('media');
 	
+	var initTime = 7;
+	var durTime = 3;
 	setTimeout(function() {
 		$('#p1').animateCss('fadeInLeft','6000').css('visibility','inherit');
-	}, 7*1000);
+	}, initTime*1000);
 	setTimeout(function() {
 		$('#p2').animateCss('fadeInRight').css('visibility','inherit');
-	}, 10*1000);
+	}, (initTime+durTime)*1000);
 	setTimeout(function() {
 		$('#p3').animateCss('fadeInLeft').css('visibility','inherit');
-	}, 13*1000);
+	}, (initTime+durTime*2)*1000);
 	setTimeout(function() {
 		$('#p4').animateCss('fadeInRight').css('visibility','inherit');
-	}, 16*1000);
+	}, (initTime+durTime*3)*1000);
 	setTimeout(function() {
 		$('#p5').animateCss('fadeInLeft').css('visibility','inherit');
-	}, 19*1000);
+	}, (initTime+durTime*4)*1000);
 	setTimeout(function() {
 		$('#h1,#h2').animateCss('fadeInUp').css('visibility','inherit');
-	}, 22*1000);
+	}, (initTime+durTime*5)*1000);
+	setTimeout(function() {
+		$('.icon1').animateCss('rotateInDownLeft').css('visibility','inherit');
+	}, (initTime+durTime*6)*1000);
+	setTimeout(function() {
+		$('.icon2').animateCss('rotateInUpRight').css('visibility','inherit');
+	}, (initTime+durTime*7)*1000);
 
 
 });
