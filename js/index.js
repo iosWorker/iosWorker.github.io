@@ -17,36 +17,36 @@ $(document).ready(function() {
 		}
 	})
 
-	function audioAutoPlay(id) {
-		var audio = document.getElementById(id);
-		audio.play();
-		document.addEventListener("WeixinJSBridgeReady", function() {
-			audio.play();
-		}, false);
-		document.addEventListener('YixinJSBridgeReady', function() {
-			audio.play();
-		}, false);
-	}
-	audioAutoPlay('audio_btn'); //xxx是你audio标签的id
+//	function audioAutoPlay(ids) {
+//		var audio = document.getElementById(ids);
+//		audio.play();
+//		document.addEventListener("WeixinJSBridgeReady", function() {
+//			audio.play();
+//		}, false);
+//		document.addEventListener('YixinJSBridgeReady', function() {
+//			audio.play();
+//		}, false);
+//	}
+//	audioAutoPlay('audio_btn'); //xxx是你audio标签的id
 	
 	setTimeout(function() {
-		$('#p1').animateCss('fadeInLeft');
-	}, 8000);
+		$('#p1').animateCss('fadeInLeft','6000').css('visibility','inherit');
+	}, 7*1000);
 	setTimeout(function() {
-		$('#p2').animateCss('fadeInRight');
-	}, 9000);
+		$('#p2').animateCss('fadeInRight').css('visibility','inherit');
+	}, 10*1000);
 	setTimeout(function() {
-		$('#p3').animateCss('fadeInLeft');
-	}, 10000);
+		$('#p3').animateCss('fadeInLeft').css('visibility','inherit');
+	}, 13*1000);
 	setTimeout(function() {
-		$('#p4').animateCss('fadeInRight');
-	}, 11000);
+		$('#p4').animateCss('fadeInRight').css('visibility','inherit');
+	}, 16*1000);
 	setTimeout(function() {
-		$('#p5').animateCss('fadeInLeft');
-	}, 12000);
+		$('#p5').animateCss('fadeInLeft').css('visibility','inherit');
+	}, 19*1000);
 	setTimeout(function() {
-		$('#h1,#h2').animateCss('rotateInUpLeft');
-	}, 13000);
+		$('#h1,#h2').animateCss('fadeInUp').css('visibility','inherit');
+	}, 22*1000);
 
 
 });
