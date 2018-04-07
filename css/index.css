@@ -12,6 +12,7 @@
 	top: 65px;
 	left: 35px;
 	visibility:hidden;
+	border-radius: 60px;
 
 }
 .icon2{
@@ -20,5 +21,6 @@
 	bottom: 65px;
 	right: 35px;
 	visibility: hidden;
+	border-radius: 60px;
 
 }
