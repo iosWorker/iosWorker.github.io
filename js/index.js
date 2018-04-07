@@ -6,7 +6,7 @@
 $(document).ready(function(){
 	
 var x = document.getElementById("media"); 
-$(function(){
+
     $("#audio_btn").click(function(){
         $(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
         
@@ -17,6 +17,18 @@ $(function(){
             x.pause();
         }
     })
-});
+    
+    function audioAutoPlay(id){
+var audio = document.getElementById(id);
+audio.play();
+document.addEventListener("WeixinJSBridgeReady", function () {
+audio.play();
+    }, false);
+document.addEventListener('YixinJSBridgeReady', function() {
+audio.play();
+    }, false);
+}
+audioAutoPlay('audio_btn');//xxx是你audio标签的id
+
 	
 });
