@@ -11,7 +11,7 @@
 	position: absolute;
 	top: 50px;
 	left: 35px;
-	/*visibility:hidden;*/
+	visibility:hidden;
 
 }
 .icon2{
@@ -19,6 +19,6 @@
 	position: absolute;
 	bottom: 50px;
 	right: 35px;
-	/*visibility: hidden;*/
+	visibility: hidden;
 
 }
