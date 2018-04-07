@@ -29,8 +29,8 @@ $(document).ready(function() {
         }
         audioAutoPlay('media');
 	
-	var initTime = 7;
-	var durTime = 3;
+	var initTime = 15;
+	var durTime = 3.5;
 	setTimeout(function() {
 		$('#p1').animateCss('fadeInLeft','6000').css('visibility','inherit');
 	}, initTime*1000);
