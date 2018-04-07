@@ -1,0 +1,8 @@
+.text p{
+	visibility: hidden;
+	animation-duration: 2.5s;
+}
+.text h1{
+	visibility: hidden;
+	animation-duration: 3s;
+}
