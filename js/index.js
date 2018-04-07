@@ -10,24 +10,24 @@ $(document).ready(function() {
 		$(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
 
 		//控制背景音乐 播放或暂停            
-		if($(this).hasClass("rotate")) {
-			x.play();
-		} else {
-			x.pause();
-		}
+//		if($(this).hasClass("rotate")) {
+//			x.play();
+//		} else {
+//			x.pause();
+//		}
 	})
 
-//	function audioAutoPlay(ids) {
-//		var audio = document.getElementById(ids);
-//		audio.play();
-//		document.addEventListener("WeixinJSBridgeReady", function() {
-//			audio.play();
-//		}, false);
-//		document.addEventListener('YixinJSBridgeReady', function() {
-//			audio.play();
-//		}, false);
-//	}
-//	audioAutoPlay('audio_btn'); //xxx是你audio标签的id
+		function audioAutoPlay(id){
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                audio.play();
+            }, false);
+            document.addEventListener('YixinJSBridgeReady', function() {
+                audio.play();
+            }, false);
+        }
+        audioAutoPlay('media');
 	
 	setTimeout(function() {
 		$('#p1').animateCss('fadeInLeft','6000').css('visibility','inherit');
