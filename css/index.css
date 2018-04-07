@@ -9,7 +9,7 @@
 .icon1{
 	width: 60px;
 	position: absolute;
-	top: 50px;
+	top: 65px;
 	left: 35px;
 	visibility:hidden;
 
@@ -17,7 +17,7 @@
 .icon2{
 	width: 60px;
 	position: absolute;
-	bottom: 50px;
+	bottom: 65px;
 	right: 35px;
 	visibility: hidden;
 
