@@ -9,8 +9,8 @@
 .icon1{
 	width: 60px;
 	position: absolute;
-	top: 65px;
-	left: 35px;
+	top: 45px;
+	left: 20px;
 	visibility:hidden;
 	border-radius: 60px;
 
@@ -18,8 +18,8 @@
 .icon2{
 	width: 60px;
 	position: absolute;
-	bottom: 65px;
-	right: 35px;
+	bottom: 45px;
+	right: 20px;
 	visibility: hidden;
 	border-radius: 60px;
 
