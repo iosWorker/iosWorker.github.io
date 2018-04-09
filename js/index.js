@@ -53,7 +53,7 @@ $(document).ready(function() {
 		$('.icon1').animateCss('rotateInDownLeft').css('visibility','inherit');
 	}, (initTime+durTime*6)*1000);
 	setTimeout(function() {
-		$('.icon2').animateCss('rotateInUpRight').css('visibility','inherit');
+//		$('.icon2').animateCss('rotateInUpRight').css('visibility','inherit');
 	}, (initTime+durTime*7)*1000);
 
 
