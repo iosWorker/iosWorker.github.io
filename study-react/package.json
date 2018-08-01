@@ -16,4 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+  ,"homepage" : "http://iosWorker.github.io/study-react"
 }
