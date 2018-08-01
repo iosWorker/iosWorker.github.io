@@ -1,4 +1,4 @@
-import React, { Component } from 'react';//从 react 的包当中引入了 React 和 React.js 的组件父类 Component
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 
 

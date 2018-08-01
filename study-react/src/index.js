@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';//从 react 的包当中引入了 React 和 React.js 的组件父类 Component
 import ReactDOM from 'react-dom';//ReactDOM 可以帮助我们把 React 组件渲染到页面上去，没有其它的作用了
 import Routes from './Routes'
 import './index.css';
