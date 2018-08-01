@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import Routes from './Routes'
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import ReactDOM from 'react-dom';//ReactDOM 可以帮助我们把 React 组件渲染到页面上去，没有其它的作用了
+import Routes from './Routes'
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -15,6 +14,16 @@ ReactDOM.render(
 );
 
 registerServiceWorker();
+
+/*
+总结
+要记住几个点：
+
+JSX 是 JavaScript 语言的一种语法扩展，长得像 HTML，但并不是 HTML。
+React.js 可以用 JSX 来描述你的组件长什么样的。
+JSX 在编译的时候会变成相应的 JavaScript 对象描述。
+react-dom 负责把这个用来描述 UI 信息的 JavaScript 对象变成 DOM 元素，并且渲染到页面上。
+*/
 
 
 
