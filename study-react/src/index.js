@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './Routes'
+// import Routes from './Routes'
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Routes />,
     document.getElementById('root')
 );
+
 registerServiceWorker();
 
 
