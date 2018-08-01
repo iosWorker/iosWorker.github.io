@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
-
-
 let titleText;
 
 function renderContent(content){
