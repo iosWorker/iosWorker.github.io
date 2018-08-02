@@ -5,6 +5,9 @@ import { Provider } from 'react-redux';
 
 import Home from './pages/home';
 import Lesson1 from './pages/lesson1';
+import Lesson2 from './pages/lesson2';
+import Lesson3 from './pages/lesson3';
+import Lesson4 from './pages/lesson4';
 
 
 function changeTable(index) {
@@ -33,6 +36,9 @@ export default class Routes extends Component {
                     <Switch>
                         <Route path='/home' component={Home} />
                         <Route path='/lesson1' component={Lesson1} />
+                        <Route path='/lesson2' component={Lesson2} />
+                        <Route path='/lesson3' component={Lesson3} />
+                        <Route path='/lesson4' component={Lesson4} />
                         <Redirect to='/home' />
                         {/* <Route component={NotFound} /> */}
                     </Switch>
