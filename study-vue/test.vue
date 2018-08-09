@@ -49,8 +49,14 @@
                 
             }
         },
+        filters: {
+            fnName: function(value) {
+                return value;
+            }
+        }
     })
     vm.$watch(expOrFn, callback)
+    Vue.set()
 </script>
 
 <style scoped>
